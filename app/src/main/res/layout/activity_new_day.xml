@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -13,12 +13,19 @@
         android:scaleType="centerCrop"/>
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="280dp"
         android:layout_height="wrap_content"
-        android:text="Время чудес! Время приключений! Время путешествий и новых открытий!
-        Время познакомиться с новым городом по соседству!)"
-        android:textSize="15sp"
-
+        android:text="Время чудес! Время приключений! Время путешествий и новых открытий! Время познакомиться с новым городом по соседству!)"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:textColor="@color/navy"
+        android:textStyle="italic"
         />
 
-</android.support.constraint.ConstraintLayout>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="8dp"/>
+
+</RelativeLayout>
